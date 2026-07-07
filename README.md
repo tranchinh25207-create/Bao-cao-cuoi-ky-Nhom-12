@@ -1,3 +1,30 @@
+#  TÀI LIỆU DỰ ÁN: HỆ THỐNG QUẢN LÝ CÂU LẠC BỘ HUẤN LUYỆN THÚ CƯNG (PETCARE TRAINING CLUB)
+
+Dưới đây là sơ đồ cấu trúc và danh mục các file tài liệu, mã nguồn SQL thuộc dự án Báo cáo cuối kỳ của Nhóm 12.
+
+---
+
+##  1. Tài liệu & Thiết kế hệ thống
+* **`Báo cáo cuối kỳ.pdf`**: File báo cáo chi tiết nội dung đồ án, lý thuyết và kết quả thực hiện.
+* **`Sơ đồ ERD.mwb`**: File thiết kế mô hình thực thể mối quan hệ (ERD) trên phần mềm MySQL Workbench.
+* **`Pet_care_training_club.mwb`**: File thiết kế cấu trúc các bảng vật lý của cơ sở dữ liệu.
+
+---
+
+##  2. Mã nguồn Cơ sở dữ liệu (SQL Scripts)
+* **`FULL SCRIPT.sql`**: Bản script đầy đủ bao gồm toàn bộ quá trình khởi tạo cấu trúc và dữ liệu cho hệ thống.
+* **`PetCareTrainingClub.sql`**: Mã nguồn khởi tạo các bảng (Tables) và ràng buộc dữ liệu chính.
+* **`seed_data.sql`**: File chứa dữ liệu mẫu (Insert) phục vụ cho việc chạy thử nghiệm hệ thống.
+* **`routines.sql`**: Nơi lưu trữ các thủ tục (Stored Procedures), hàm (Functions) và Trigger của dự án.
+* **`Test.sql`**: File chứa các câu lệnh truy vấn, test case kiểm tra chức năng hệ thống.
+* **`PetCareTrainingClub_Backup.sql`**: Bản sao lưu (Backup) dự phòng của toàn bộ cơ sở dữ liệu.
+
+---
+
+##  3. Hướng dẫn cài đặt & Sử dụng
+1. Tải và cài đặt phần mềm **MySQL Workbench**.
+2. Mở file `Pet_care_training_club.mwb` để xem cấu trúc sơ đồ trực quan.
+3. Chạy file `FULL SCRIPT.sql` trong MySQL để tự động tạo toàn bộ cơ sở dữ liệu và nạp dữ liệu mẫu.
 # Bao-cao-cuoi-ky-Nhom-12
 Github đề tài " Thiết kế và triển khai cơ sở dữ liệu quản lý câu lạc bộ huấn luyện thú cưng PETCARE TRAINING CLUB"
 # PetCare Training Club Database Management System
